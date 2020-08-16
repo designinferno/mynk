@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mayank - Résumé</title>
+    <meta name="author" content="Mayank">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--[In file css - Starts]-->
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+        .Navbar ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0
+        }
+
+        html {
+            font-size: 62.5%;
+            box-sizing: border-box
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit
+        }
+
+        body {
+            margin: 0;
+            background-color: #fff
+        }
+
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        .u-cf:before,
+        .u-cf:after {
+            content: " ";
+            display: table
+        }
+
+        .u-cf:after {
+            clear: both
+        }
+
+        .u-hug {
+            margin-top: 0 !important
+        }
+
+        .u-pullRight {
+            float: right
+        }
+
+        .u-keyline {
+            position: relative
+        }
+
+        .u-keyline:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            border-top: 1px solid #ddd
+        }
+
+        .u-link {
+            text-decoration: none;
+            position: relative;
+            display: inline-block
+        }
+
+        .u-link:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            bottom: .2em;
+            width: 100%;
+            height: 2px;
+            background-color: #96ddcf
+        }
+
+        .u-link:visited:before {
+            background-color: #ddd
+        }
+
+        .u-link:hover:before {
+            background-color: #fa8072
+        }
+
+        .u-shadow {
+            text-shadow: 4px 4px 0 #6fd1bd;
+            transition: text-shadow .2s ease-in-out
+        }
+
+        a:hover .u-shadow {
+            text-shadow: -4px -4px 0 salmon
+        }
+
+        @media (max-width:767px) {
+            .u-hidden\@sm-down {
+                display: none !important
+            }
+        }
+
+        @media (max-width:543px) {
+            .u-hidden\@xs-down {
+                display: none !important
+            }
+        }
+
+        body {
+            color: #333;
+            font-size: 1.6rem;
+            font-family: Lato, Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            line-height: 1.5;
+            letter-spacing: .008em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #111;
+            line-height: 1.2;
+            font-weight: 900
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ul,
+        p {
+            margin-top: 1.6rem;
+            margin-bottom: 0
+        }
+
+        h3,
+        .h3 {
+            font-size: 2rem;
+            margin-top: 3.2rem
+        }
+
+        a {
+            color: #333
+        }
+
+        ul {
+            padding-left: 1.8rem
+        }
+
+        .Title {
+            font-size: 50px;
+            font-size: 8vw;
+            font-family: Lato, 'Open Sans', Helvetica, Arial;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            display: inline-block
+        }
+
+        @media (max-width:525px) {
+            .Title {
+                font-size: 42px
+            }
+        }
+
+        @media (min-width:937.5px) {
+            .Title {
+                font-size: 75px
+            }
+        }
+
+        .Title-sub {
+            font-size: .34em;
+            letter-spacing: .16em;
+            font-weight: 400;
+            text-transform: none;
+            display: block;
+            margin-top: 1.2rem;
+            padding-top: 1.6rem;
+            border-top: .45em solid
+        }
+
+        .l-Wrapper {
+            width: 80%;
+            max-width: 90rem;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        @media (max-width:767px) {
+            .l-Wrapper--reset\@sm-down {
+                width: 100%
+            }
+        }
+
+        .l-Header {
+            margin-top: 6.4rem;
+            margin-bottom: 3.2rem
+        }
+
+        .l-Header-col {
+            margin-top: 3.2rem;
+            margin-bottom: 3.2rem
+        }
+
+        @media (min-width:544px) {
+            .l-Header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end
+            }
+
+            .l-Header-col:last-child:not(:first-child) {
+                text-align: right
+            }
+        }
+
+        .l-Section {
+            margin-top: 6.4rem
+        }
+
+        .l-Section+.l-Section {
+            position: relative;
+            border-top: 1px solid #ddd
+        }
+
+        .l-Section+.l-Section:before {
+            content: "";
+            font-size: 50px;
+            font-size: 8vw;
+            position: absolute;
+            top: -.1rem;
+            border-top: .153em solid;
+            width: 4rem
+        }
+
+        @media (max-width:525px) {
+            .l-Section+.l-Section:before {
+                font-size: 42px
+            }
+        }
+
+        @media (min-width:937.5px) {
+            .l-Section+.l-Section:before {
+                font-size: 75px
+            }
+        }
+
+        .l-Section-title,
+        .l-Section-content {
+            margin-top: 3.2rem
+        }
+
+        .l-Section-content>:first-child,
+        .l-Section-content>:first-child>h3 {
+            margin-top: 0
+        }
+
+        .l-Section-content>p:first-child,
+        .l-Section-content>ul:first-child {
+            margin-top: .3rem
+        }
+
+        .l-Section-group {
+            display: inline
+        }
+
+        @media (min-width:768px) {
+            .l-Section {
+                display: flex
+            }
+
+            .l-Section:before {
+                display: none
+            }
+
+            .l-Section-title {
+                flex: 0 0 24%
+            }
+        }
+
+        .l-Footer {
+            font-size: 1.4rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 12.8rem -.8rem 3.2rem;
+            padding-top: 3.2rem
+        }
+
+        .l-Footer a {
+            text-decoration: none;
+            display: inline-block
+        }
+
+        .l-Footer a:not(:last-child) {
+            margin-right: 1.6rem
+        }
+
+        .l-Footer a:hover {
+            color: #111
+        }
+
+        .l-Footer-col {
+            padding-left: .8rem;
+            padding-right: .8rem
+        }
+
+        .Navbar {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 4rem;
+            letter-spacing: .28rem;
+            text-transform: uppercase;
+            width: 100%;
+            background-color: #111
+        }
+
+        .Navbar a:not(.Navbar-toggle) {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .Navbar li {
+            display: inline-block
+        }
+
+        .Navbar a {
+            display: block;
+            padding: 0 .8rem
+        }
+
+        a.Navbar-btn {
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background: #6fd1bd
+        }
+
+        a.Navbar-btn:hover {
+            background: #fa8072
+        }
+
+        @media (max-width:767px) {
+            .Navbar {
+                text-align: right
+            }
+
+            .Navbar ul:not(:first-child) {
+                display: inline-block;
+                padding-right: 1.6rem !important
+            }
+        }
+
+        .Tag {
+            color: #111;
+            text-shadow: 1px 1px 0 rgba(255, 255, 255, .4);
+            font-weight: 700;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+            padding-left: .8rem;
+            padding-right: .8rem
+        }
+
+        .Tag:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1em;
+            bottom: 0;
+            margin: auto;
+            border-radius: .2rem;
+            background-color: rgba(111, 209, 189, .5);
+            transition: all .2s .2s ease-in-out
+        }
+
+        .Tag:hover:before {
+            transform: scale(1.05, 2.4);
+            background-color: #6fd1bd;
+            transition-delay: 0s;
+            transition-duration: .2s
+        }
+
+        @media print {
+            html {
+                font-size: 50%
+            }
+
+            .l-Wrapper {
+                width: 100%;
+                max-width: none
+            }
+
+            .Navbar,
+            .u-hidden\@print {
+                display: none
+            }
+
+            .l-Header,
+            .l-Header-col {
+                margin-top: 0
+            }
+
+            .l-Footer,
+            .l-Section {
+                margin-top: 3.2rem
+            }
+
+            h3,
+            .h3,
+            .l-Section-title,
+            .l-Section-content {
+                margin-top: 1.8rem
+            }
+
+            .Title {
+                font-size: 4.5rem
+            }
+
+            .l-Header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end
+            }
+
+            .l-Header-col:last-child:not(:first-child) {
+                text-align: right
+            }
+
+            .l-Section {
+                position: relative;
+                padding-top: 5px;
+                border-top: 1px solid #ddd
+            }
+
+            .l-Section:before {
+                display: none
+            }
+
+            .l-Section:after {
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: 0;
+                border-top: 5px solid;
+                width: 4rem
+            }
+
+            .l-Section-group {
+                display: block;
+                page-break-inside: avoid
+            }
+
+            .Tag {
+                font-weight: 900;
+                display: inline;
+                padding-left: 0;
+                padding-right: 0
+            }
+
+            *,
+            *:before,
+            *:after,
+            p:first-letter,
+            div:first-letter,
+            blockquote:first-letter,
+            li:first-letter,
+            p:first-line,
+            div:first-line,
+            blockquote:first-line,
+            li:first-line {
+                background: transparent !important;
+                color: #000 !important;
+                box-shadow: none !important;
+                text-shadow: none !important
+            }
+
+            a,
+            a:visited {
+                text-decoration: underline
+            }
+
+            p,
+            h2,
+            h3,
+            li {
+                orphans: 3;
+                widows: 3
+            }
+
+            h2,
+            h3 {
+                page-break-after: avoid
+            }
+
+            .Contact:after {
+                content: "(206) 960-0961";
+                padding-left: 1.6rem
+            }
+        }
+
+        @page {
+            margin: 2.2cm 2.2cm 1.8cm
+        }
+    </style>
+
+<!--[In file css - Ends]-->
+
+</head>
+
+<body cz-shortcut-listen="true">
+
+    <nav class="Navbar">
+        <div class="l-Wrapper l-Wrapper--reset@sm-down">
+            <ul class="u-pullRight u-hidden@xs-down">
+                <li>
+                    <a class="Navbar-btn Navbar-btn--main" href="https://bit.ly/2ZJ78Hb">
+                        Download CV 👋
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/mynk.png/">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/mynkdotpng">Behance</a>
+                </li>
+                <li>
+                    <a href="https://dribbble.com/namelessfaggit">Dribbble</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="l-Wrapper">
+
+        <div class="l-Header">
+            <div class="l-Header-col">
+                <a href="#0">
+                    <h1 class="Title">
+                        <span class="u-shadow">
+                            Mayank
+                            <br> Kumar
+                        </span>
+                        <span class="Title-sub">UI/UX Designer</span>
+                    </h1>
+                </a>
+            </div>
+            <div class="l-Header-col Contact">
+                <div>New Delhi, India</div>
+                <div>
+                    <a class="u-link" href="tel:+918130677980">Ph. +91 8130 677 980</a>
+                </div>
+                <div>
+                    <a class="u-link" href="mailto:666mynk@gmail.com">666mynk@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3 u-hidden@sm-down">Profile</h2>
+            <div class="l-Section-content">
+                <p>I’m a UI/UX Designer with a passion for design systems, style guides and component libraries. I enjoy
+                    creating beautiful, user-centered websites and web applications with a strong interest in clean
+                    grid design as well as elegant typography. Good eye for design and typography, high attention to
+                    detail. Great listener, curious, team player.</p>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Skills</h2>
+            <div class="l-Section-content">
+                <ul>
+                    <li>Highly skilled in creating web comps  and user interface for mobile user with
+                        <strong class="Tag">Adobe XD</strong>,
+                        <strong class="Tag">Figma</strong>,
+                        <strong class="Tag">Protopie</strong>
+                    </li>
+                    <li>Passionate about
+                        <strong class="Tag">Minimalism</strong>
+                        <strong class="Tag">UI/UX</strong> (Research, Wireframes, Prototypes) and
+                        <strong class="Tag">Interaction Designs</strong> (Micro interaction, Transitions Visual)
+                    </li>
+                    <li>Experienced with
+                        <strong class="Tag">Adobe Photoshop</strong>,
+                        <strong class="Tag">Adobe Illustrator</strong>
+                        <strong class="Tag">Corel Draw</strong> and
+                        <strong class="Tag">Affinity Designer</strong> and
+                       <strong class="Tag">Website Builders</strong> (Wix, Square Space, Weebly, Slides, Carrds)
+                    </li>
+                    <li>Proficient with
+                        <strong class="Tag">Adobe Indesign</strong>
+                        <strong class="Tag">Adobe Premier Pro</strong> and
+                        <strong class="Tag">Wondershare Filmora</strong>
+                    </li>
+                    <li>Skilled in creating
+                        <strong class="Tag">Design Systems</strong>,
+                        <strong class="Tag">Component Libraries</strong>,
+                        <strong class="Tag">Prototypes</strong> and
+                        <strong class="Tag">Style Guides</strong>
+                    </li>
+                    <li>Knowledgeable about
+                        <strong class="Tag">Vector</strong> (SVG, EPS, PDF, AI),
+                        <strong class="Tag">User Experience</strong>,
+                        <strong class="Tag">Accessibility</strong>,
+                        <strong class="Tag">Image Optimaization</strong>,
+                        <strong class="Tag">Responsive Web Designs</strong> with a
+                        <strong class="Tag">Mobile First</strong> approach,
+                        <strong class="Tag">Cross-Browser Compatibilities</strong> and
+                        <strong class="Tag">Progressive Enhancement</strong>.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Experience</h2>
+            <div class="l-Section-content">
+                <div class="l-Section-group">
+                    <h3>UI/UX Designer</h3>
+                    <a class="u-link" href="http://www.appsuccessor.com/">Appsuccessor</a> (Noida)
+                    <br> Dec 2019 - Present
+                    <ul>
+                      <li>Rewamped the website design for
+                        <a class="u-link" href="https://dheeraj995.github.io/websites/">Appsfollowing</a>,
+                        <a class="u-link" href="http://www.mobpine.com/">Mobpine</a>,
+                        <a class="u-link" href="https://www.mobiaviator.com/">Mobi Aviator</a>,
+                        <a class="u-link" href="https://www.offersinfinite.com/">Offers Infinite</a>
+                        <a class="u-link" href="https://dheeraj995.github.io/hustlenew/">Adshustle</a> and
+                        <a class="u-link" href="https://www.quasermobi.com/">QuaserMobi</a>
+                      </li>
+                      <li>Created web UI for
+                        <a class="u-link" href="https://www.behance.net/gallery/95491213/WDKM-An-adtech-agency">WDKM</a>,
+                        <a class="u-link" href="https://www.vestaapps.com/">VestaApps</a>,
+                        <a class="u-link" href="https://www.behance.net/gallery/95490557/AppsAmplify-An-adtech-webpage">AppsAmplify</a>,
+                        <a class="u-link" href="http://77ads.com/">77ads</a>,
+                        <a class="u-link" href="#0">Amit International</a>,
+                        <a class="u-link" href="https://metatransact.com/">MetaTransact</a>,
+                        <a class="u-link" href="https://www.behance.net/gallery/95483131/Blog-Website-I-was-molested">I was Molested</a> and
+                        <a class="u-link" href="#0">Ecnon</a>
+                      </li>
+                      <li>Designed social media posts for ad campaigns for businesses dealing in properties like Adani Oyster, Tata Homes, Purvanchal Royal City, Hero Homes, Godrej Homes.
+                      </li>
+                      <li>Responsible for creative infographics for websites, designing Lightpapers, PPT and Business Stationaries, generate Moch-UP, Prototypes, website Optimaization.
+                      </li>
+                    </ul>
+                </div>
+
+                <div class="l-Section-group">
+                    <h3>Graphics & UI Developer</h3>
+                    <a class="u-link" href="https://www.addtogoogle.com/">Addtogoogle</a> (New Delhi)
+                    <br> Sept 2018 - Nov 2019
+                    <ul>
+                        <li>Rewamped the website design for
+                          <a class="u-link" href="https://torani.in//">Torani</a>
+                          <a class="u-link" href="https://www.juristandjurist.com/">Jurist & Jurist International</a>,
+                          <a class="u-link" href="https://www.makehomehappy.in/">Make Home Happy</a>,
+                          <a class="u-link" href="https://www.moistreet.com/">Moistreet</a>,
+                          <a class="u-link" href="https://linenonme.com/?v=c86ee0d9d7ed">Linen on me</a> and
+                          <a class="u-link" href="https://www.banjaaran.in/">Banjaaran</a>
+                        </li>
+                        <li>Created company profiles and brouchers for Jurist & Jurist International, Addtogoogle and Interstate Transsolution Pvt. Ltd.
+                        </li>
+                        <li>Designed social media posts for ad campaigns for Talbros Penray(FD), Najib Darbar(UP), Central Park Cafe(DL), Doon Lazeez(UK),
+                          Too High(RJ), Indian Institute of Counselling(DL),
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="l-Section-group">
+                    <h3>Graphics Designer</h3>
+                    <a class="u-link" href="https://www.kalamcentre.com/">Dr. A.P.J. Abdul Kalam Centre</a> (New Delhi)
+                    <br> Mar 2018 - Aug 2018
+                    <ul>
+                        <li>Re-Designed Kalam Centre's official website as my first project.
+                        </li>
+                        <li>Designed user interface for a website '<a class="u-link" href="https://www.kalamcentre.com/copy-of-kig-academy">Right to Water</a>' website and an initiative called the
+                           Dr. Kalam Memorial InnoBlu Centre for social awareness campaign.
+                        </li>
+                        <li>Designed user interface for a website '<a class="u-link" href="https://www.kalamcentre.com/klcp">Dr. Kalam Leadership Certification Programr</a>' which is
+                           India’s first certification program that enriches leadership experience through its unique curriculum and field work components.
+                        </li>
+                        <li>Created a board game for kids based on clean water and polluted water to spread awareness.</li>
+                        <li>Created videos for social awareness campaigns for Mission Mars 2020, Right to Water, Dr. APJ Abdul Kalam's Biograph</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="l-Section">
+        <h2 class="l-Section-title h3">Education</h2>
+          <div class="l-Section-content">
+              <div class="l-Section-group">
+                <h3>Graphics Design for Webpage </h3>
+                <a class="u-link" href="https://www.nsic.co.in/">National Small Industries Corporation (MSME)</a>
+                <br> Sept 2017 - Feb 2018
+                <p>A full-time ceritification programme that provides the technical expertise as well as the design and
+                    communication skills in areas including web (frontend Designing).
+                    <br>
+                    Grade: <strong class="Tag">A</strong></p>
+            </div>
+
+              <div class="l-Section-group">
+                <h3>Electrical & Electronic Engineering</h3>
+                <a class="u-link" href="https://adgitmdelhi.ac.in/">Dr. Akhilesh Das Gupta Institute of Technology & Management (GGSIPU)</a>
+                <br> 2013 - 2016
+                <p>Percentage: 68% (Dropped out in final year to pursue Designing)</p>
+            </div>
+
+              <div class="l-Section-group">
+                <h3>Electrical Engineering</h3>
+                <a class="u-link" href="https://en.wikipedia.org/wiki/Pusa_Institute_of_Technology">Pusa Intitute of Technology (BTE)</a>
+                <br> 2010 - 2013
+                <p>Percentage: 65%</p>
+            </div>
+
+              <div class="l-Section-group">
+                <h3>Secondary(X) </h3>
+                <class="u-link">Govt. Sarvodaya Bal Vidyalaya (CBSE)
+                <br> 2009
+                <p>Percentage: 64%</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Hobbies & Interests</h2>
+            <div class="l-Section-content">
+                <ul>
+                    <li>Generally you will find me exploring latest trends of designing like Typography, UI Designs, Application Animations ideas and collecting resources for my next projects in my free time.
+                    </li>
+                    <li>Passionate about about exploring new food places and try them every now and then.
+                    </li>
+                    <li>And when i'm completly tired of doing all these thing i just like to read mangas, watch animes and updating my portfolio and websites.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </article>
+
+    <div class="l-Wrapper u-keyline">
+        <div class="l-Footer">
+            <div class="l-Footer-col">
+              <strong class="Tag">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/></a>
+                This work is licensed under a
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>.
+                </strong>
+            </div>
+            <div class="l-Footer-col Contact">
+                <a href="tel:+918130677980">Ph. +91 8130 677 980</a>
+                <a href="mailto:666mynk@gmail.com">666mynk@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.18.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+</body>
+
+</html>
